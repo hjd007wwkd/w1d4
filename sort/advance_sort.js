@@ -13,7 +13,7 @@ students.sort(function(a, b){
   } else if (nameA > nameB) {
     return 1;
   } else {
-    return a.age - b.age
+    return b.age - a.age;
   }
 })
 
